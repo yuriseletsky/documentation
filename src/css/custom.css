@@ -28,3 +28,22 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Зміна шрифту заголовків */
+h1, h2, h3 {
+  font-family: 'Arial', sans-serif;
+  color: #005bbb;
+}
+
+/* Тло для всієї документації */
+.main-wrapper {
+  background-color: #f5f5f5;
+}
+
+/* Темний режим: */
+html[data-theme='dark'] {
+  --ifm-background-color: #111;
+  --ifm-color-primary: #00bcd4;
+  --ifm-color-content: #ddd;
+}
+
